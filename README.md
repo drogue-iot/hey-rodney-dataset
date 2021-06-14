@@ -2,23 +2,31 @@
 
 This is a dataset of voice samples for our wake word detection of "Hey Rodney".
 
+All the audio samples will be licensed under the __Creative Commons Zero v1.0 Universal__ (CC0 aka Public Domain)
+
 ## Steps to Record audio data and upload it on github
 
 ## Specifications:
 
 | __Phrase__ | "Hey Rhodney"   |
 | ------------- | ------------- |
-| __Number of Samples__  | 3  |
+| __Number of Samples__  | 3 (different files)|
 | __Sample Rate__ | 16 KHz  |
 | __Number of Channels__ | 1 |
 | __Encoding__ | Signed 16-bit PCM |
 
 
 
-## Step 1: Record the Audio
+## Step 1: Record the audio
 
-### Steps to implement in audacity:
-1. Open audacity 
+### Steps to install Audacity
+1. Using a web browser Navigate to the page https://www.audacityteam.org/download/
+2. Choose Audacity for Windows/Mac/Linux based on your computer
+3. After the download is complete open the installer file
+4. Follow the steps of the installer
+
+### Steps to implement in Audacity:
+1. Open Audacity 
 2. Set Project rate to 16000 ( In the bottom left ) 
 3. Set the recording channel 1 (mono) recording channel ( which is in the bar just above the timestamps )
 4. Record your voice saying *“Hey Rodney”*
@@ -26,10 +34,13 @@ This is a dataset of voice samples for our wake word detection of "Hey Rodney".
 
 __Export the audio file in the form of a .wav file__:<br> 
 *Create a dedicated folder to store all recordings*
-1. After completing the recording 
+1. After completing each recording 
 2. Go to File
 3. Export
 4. Export as *.wav*
+5. Select the dedicated folder
+6. Select signed 16-bit PCM as the encoding
+7. Export the file
 
 ## Step 2: Create a Zip
 
@@ -44,16 +55,17 @@ __Mac__:
 __Windows__: 
 - Right click on the folder
 - Send to  
-- Compressed (zipped) 
-- Folder
+- Compressed (zipped) Folder
 
 __Linux__: 
 
-```zip -r [Name of the new folder.zip] [Name of the folder that contains the voice samples]```
+```
+zip -r [Name of the new folder.zip] [Name of the folder that contains the voice samples]
+```
 
 __Using a website__:  
-- Go to the website  (https://www.ezyzip.com/zip-folder-online.html#) 
-choose the desired folder to be zipped 
+- Go to the website https://www.ezyzip.com/zip-folder-online.html#
+- choose the desired folder to be zipped 
 - Upload the files 
 - Click “Zip Files” 
 - Click “save zip file”
@@ -63,9 +75,7 @@ choose the desired folder to be zipped
 
 ### Upload the folder to the GitHub repository *“hey-rodney-dataset”* by creating an issue:
 
-- Open the url : https://github.com/rishabh-vasudevan/hey-rodney-dataset
-- Go to the issues tab on the top  
-- Click on New Issue 
-- Make the title your name ( if you are comfortable sharing it ) or just say audio sample  
+- Open the url : https://github.com/drogue-iot/hey-rodney-dataset/issues/new
+- Make the title your name ( if you are comfortable sharing it ) or just write audio sample  
 - Drag and drop the file to the place where it says to leave a comment  
 - You can also add your age, gender, nationality ( if you are comfortable with sharing it )
