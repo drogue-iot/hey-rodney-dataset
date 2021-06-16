@@ -2,7 +2,7 @@
 
 This is a dataset of voice samples for our wake word detection of "Hey Rodney".
 
-All the audio samples will be licensed under the __Creative Commons Zero v1.0 Universal__ (CC0 aka Public Domain)
+All the audio samples will be licensed under the __Creative Commons Zero v1.0 Universal__ (CC0 aka Public Domain). Only upload samples containing your own voice!
 
 ## Steps to Record audio data and upload it on github
 
