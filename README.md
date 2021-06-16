@@ -76,6 +76,7 @@ __Using a website__:
 ### Upload the folder to the GitHub repository *“hey-rodney-dataset”* by creating an issue:
 
 - Open the url : https://github.com/drogue-iot/hey-rodney-dataset/issues/new
-- Make the title your name ( if you are comfortable sharing it ) or just write audio sample  
-- Drag and drop the file to the place where it says to leave a comment  
-- You can also add your age, gender, nationality ( if you are comfortable with sharing it )
+- Make a new issue with the title "Audio Sample"  
+- Drag and drop the zipped folder ( which contains the sound snippets ) to the place where it says to leave a comment  
+- You can also add your gender, first language ( optional ) in the comment <br>
+  __Note : We are asking for the gender and first language so that we can keep a track of the distribution of sound samples over different genders and first languages__
