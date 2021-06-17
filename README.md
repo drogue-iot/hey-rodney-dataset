@@ -75,7 +75,7 @@ __Using a website__:
 
 ### Upload the folder to the GitHub repository *“hey-rodney-dataset”* by creating an issue:
 
-- Open the url : https://github.com/drogue-iot/hey-rodney-dataset/issues/new
+- Open the url : https://github.com/drogue-iot/hey-rodney-dataset/issues/new?assignees=&labels=&template=submit-voice-sample.md&title=Audio+sample
 - Make a new issue with the title "Audio Sample"  
 - Drag and drop the zipped folder ( which contains the sound snippets ) to the place where it says to leave a comment  
 - You can also add your gender, first language ( optional ) in the comment <br>
